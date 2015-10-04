@@ -19,8 +19,13 @@ angular.module('basketballApp', ['ionic'])
   .state('home', {
     url: '/home',
     templateUrl: 'app/home/home.html'
+  })
+
+  .state('app', {
+    url: '/app',
+    templateUrl: '/app/layout/menu-layout.html'
   });
 
   // use this if none of the above are matched
-  $urlRouterProvider.otherwise('/home');
+  $urlRouterProvider.otherwise('/app');
 });
