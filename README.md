@@ -1,2 +1,2 @@
-# Mobile Basketball Tournaments App
+## Mobile Basketball Tournaments App
 Using the Ionic Framework
